@@ -94,6 +94,8 @@ spec:
     name: http
 ```
 ### Execute Normal
+
+ kubectl config get-contexts --> Lista los copntext que tenemos en minikube.. Si queremos utilizar kubernetes el minikube debe estar activo..
 **Check status of minikube**
 - minikube status
 
