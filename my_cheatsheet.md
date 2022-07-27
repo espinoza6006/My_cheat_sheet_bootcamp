@@ -96,6 +96,9 @@ spec:
 ### Execute Normal
 
  kubectl config get-contexts --> Lista los copntext que tenemos en minikube.. Si queremos utilizar kubernetes el minikube debe estar activo..
+ 
+  
+ 
 **Check status of minikube**
 - minikube status
 
@@ -104,6 +107,8 @@ spec:
 - minikube start
 
     - kubectl apply -f <deployment_yaml_file_name>.yaml
+    - kubectl get namespaces
+    - kubectl  get all -n <namespaces que estas aplicando>
     #### To get deployment and service name
     - kubectl get all
     - kubectl logs deployment/<deployment_name>
